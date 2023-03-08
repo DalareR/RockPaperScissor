@@ -32,7 +32,7 @@ export default function Home() {
   const [compScore, setCompScore] = useState(0);
   const [error, setError] = useState("");
   const [scoreMsg, setScoreMsg] = useState("");
-  const [windowDimension, setWindowDimension] = useState({
+  const windowDimension = useState({
     width: window.innerWidth,
     height: window.innerHeight,
   });
